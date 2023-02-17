@@ -4,16 +4,17 @@
 /**
  * main - returns alphabets
  *
- * Return: 0
+ * Return:Always  0 (success)
  */
 int main(void)
 {
-	int ch = 'a';
+	char c;
+       c = 'a';
 
-	while (ch <= 'z')
+	while (c <= 'z')
 	{
-		putchar(ch);
-		ch++;
+		putchar(c);
+		c++;
 	}
 	putchar('\n');
 	return (0);
