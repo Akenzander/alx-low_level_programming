@@ -1,18 +1,27 @@
 #include "main.h"
 
 /**
- * print_numbers - print 0123456789
- * owned by alex
+ * print_numbers - function declaration
+ * Description: print 0 - 9
  * Return:void
  */
 
+void print_numbers(void);
+
+/**(
+ * print_numbers - function definition
+ * Description: will print 0 - 9
+ * Return: void
+ */
+
+
 void print_numbers(void)
 {
-	char c;
+	int number;
 
-	for (c = '0'; c <= '9'; c++)
+	for (number = 0; number <= 9; number++)
 	{
-		_putchar(c);
+		_putchar(number + '0');
 	}
 			_putchar('\n');
 }
