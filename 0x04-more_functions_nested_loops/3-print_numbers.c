@@ -6,22 +6,14 @@
  * Return:void
  */
 
-void print_numbers(void);
-
-/**(
- * print_numbers - function definition
- * Description: will print 0 - 9
- * Return: void
- */
-
 
 void print_numbers(void)
 {
-	int number;
+	int i = '0';
 
-	for (number = 0; number <= 9; number++)
+	for (i <= 9; i++)
 	{
-		_putchar(number + '0');
+		 _putchar(c);
 	}
 			_putchar('\n');
 }
